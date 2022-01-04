@@ -13,7 +13,7 @@ h2 {
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -51,4 +51,20 @@ h2 {
   background-image: url(/images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+}
+#web-dev-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-stack-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+.experiences {
+  text-align: center;
+}
+footer p {
+  text-align: center;
 }
